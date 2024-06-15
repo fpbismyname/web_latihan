@@ -1,0 +1,48 @@
+/* All component */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: helvetica;
+}
+
+/* Kustomisasi Kartu */
+.container-col {
+    background-color: rgb(111, 203, 111);
+  display: flex;
+  justify-content: center;
+  flex-direction: col;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  background-color: rgb(160, 255, 160);
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 2rem;
+}
+.card-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.content-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+}
+.content-input > input {
+  padding: 5px;
+}
